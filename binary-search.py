@@ -2,6 +2,10 @@
 # Modifications needed for the older Python 2 are found in comments.
 
 # Returns index of x in arr if present, else -1
+#Binary search complexity
+#It basically works in divide and conquer approach that means in each step it divides the problem into
+#smaller problem and concentrate on that small problem and so on until solution is found.
+#so its worst case complexity is O(log n) as it will take log n steps to reach the solution
 def binary_search(arr, low, high, x):
 
 	# Check base case
